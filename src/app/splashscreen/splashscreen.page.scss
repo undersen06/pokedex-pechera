@@ -1,0 +1,23 @@
+ion-content{
+    --ion-background-color:#e44741;
+
+    div{
+        img{
+            display: block;
+            &.main{
+                margin: 50% auto;
+                max-width: 200px;
+            }
+            &.gif{
+                margin: auto;
+                width: 100px;
+            }
+          
+        }
+        p{
+            text-align: center;
+            margin: auto;
+            font-weight: bold;
+        }   
+    }
+}
